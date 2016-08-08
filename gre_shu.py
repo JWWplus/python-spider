@@ -19,7 +19,7 @@ handler = urllib2.HTTPCookieProcessor(cookie)
 opener = urllib2.build_opener(handler)
 # 用户名和密码
 username = '15721540'
-password = 'Jww930729'
+password = '1234567'
 # 用openr访问验证码地址,获取cookie
 picture = opener.open(CaptchaUrl).read()
 # 保存验证码到本地
